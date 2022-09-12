@@ -6,10 +6,24 @@ https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspn
 
 https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb
 
+## Install mongosh
+
+https://www.mongodb.com/docs/mongodb-shell/install/
+
+## Startup
+
+**Terminal 1**
 ```bash
 sudo mongod --dbpath ~/data/db
 ```
 
-## Install mongosh
+**Terminal 2**
+```bash
+mongosh
+```
 
-https://www.mongodb.com/docs/mongodb-shell/install/
+**Terminal 3**
+```bash
+cd /workspaces/mongodb-dotnet-api/BookStoreApi/
+dotnet run
+```
